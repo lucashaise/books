@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: none !important;
+  background: #fafafa;
+  position: relative;
+}
+
+#nav {
+  padding-top: 10px;
+  background-color: blueviolet;
+}
+
+.search {
+  padding: 10px;
+  margin: 0 10px 10px 10px;
+  display: flex;
+  background-color: white;
+}
+
+.search-icons {
+  font-size: 20px;
+  flex-basis: 1;
+}
+
+#search-input {
+  flex-basis: 75vw;
+}
+
+#search-input > input {
+  width: 75vw;
+  padding: 0 10px;
+  border: 0;
+}
+
+.nav-icons {
+  color: rgb(235, 235, 235);
+  z-index: 2;
+  text-align: center;
+  font-size: 30px;
+}
+
+#mic {
+  text-align: end;
+}
+
+/*Image card*/
+
+.hero.mdl-card {
+  width: 100vw;
+  background-position-y: 12%;
+  background: url("https://i.pinimg.com/originals/ba/8a/d6/ba8ad61e02a2986d591390953fb3eba8.jpg") center / cover;
+}
+
+.hero > .mdl-grid {
+  width: 100%;
+  height: 150px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+
+.mdl-card__title {
+  padding: 0;
+}
+
+.mdl-card__title-text {
+  margin: 0;
+  color: #eee;
+  padding: 0;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.mdl-card__supporting-text {
+  padding: 0;
+  color: #ccc;
+}
+
+
+/*Botao*/
+.mdl-chip {
+  color: whitesmoke;
+  background-color: blueviolet;
+}
+
+.chips {
+  margin-top: 1vh;
+  padding-left: 3px;
+}
+
+
+
+.section-title {
+  margin-top: 20px;
+  font-size: 14px;
+  padding: 0;
+}
+
+.section-name {
+  margin: 0px;
+  padding-left: 10px;
+  font-weight: 600;
+}
+
+.section-more {
+  margin: 0px;
+  padding: 0;
+  color: purple;
+  text-align: right;
+}
+
+/* livos */
+
+
+.books-container {
+  display: flex;
+}
+.book-card {
+  width: 30vw;
+}
+
+.book-cover {
+  margin: 5px;
+}
+
+.book-cover > img {
+  max-width: 100%;
+}
+
+.book-title {
+  color: #222;
+  font-size: 16px;
+  padding: 5px;
+  font-weight: 600;
+}
+
+.book-author {
+  color: #444;
+  padding: 5px;
+}
+
+.price {
+  color: #646;
+  text-align: right;
+}
+
+/* Authors */
+
+.authors-container {
+  display: flex;
+}
+
+.author {
+  padding: 10px;
+  text-align: center;
+}
+
+.author-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+
+  
